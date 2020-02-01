@@ -1,20 +1,18 @@
 # Illness detection 
 
 ## Steps:
-1. collected data through web crawler: 
-  - [timesofindia](https://timesofindia.indiatimes.com/life-style/health-fitness/health-a-z) 
-  - wikipdia
+1. collected data through web crawler: [timesofindia](https://timesofindia.indiatimes.com/life-style/health-fitness/health-a-z) and Wikipedia
 
-2. trained on [base-cased-bert](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification)
+2. Apply [base-cased-bert](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification)
 
-run pogram by click run.sh
+Run pogram by click run.sh
 
 ### Todo: 
 - [ ] Attention visualization 
 - [ ] Prediction 
 
-## illness names
-Illness names are collected through [timesofindia](https://timesofindia.indiatimes.com/life-style/health-fitness/health-a-z):
+## Illness names
+Illness categories are collected through [timesofindia](https://timesofindia.indiatimes.com/life-style/health-fitness/health-a-z):
 - acna
 - alcoholism
 - alzheimers-disease
